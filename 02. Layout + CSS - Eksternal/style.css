@@ -36,18 +36,17 @@ nav {
     align-items: center;
     position: relative;
     padding: 0 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* shadow halus */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 
 nav img {
     width: 50px;
     display: block;
     padding: 5px;
-    margin-left: -17px;
     transition: transform 0.3s ease;
 }
 nav img:hover {
-    transform: rotate(-5deg) scale(1.1); /* logo ada efek interaktif */
+    transform: rotate(-5deg) scale(1.1); 
 }
 
 nav ul {
@@ -73,7 +72,7 @@ nav ul li a {
     z-index: 1;
 }
 
-/* Background bubble dengan gradient Instagram vibes */
+
 nav ul li a::before {
     content: "";
     position: absolute;
@@ -88,12 +87,12 @@ nav ul li a::before {
 
 nav ul li a:hover::before {
     transform: scale(1);
-    background-position: 100% 0; /* gradasi bergerak */
+    background-position: 100% 0; 
 }
 
 nav ul li a:hover {
     color: white;
-    letter-spacing: 1px; /* efek text melebar */
+    letter-spacing: 1px; 
 }
 
 
@@ -184,7 +183,7 @@ nav ul li a:hover {
 
 /* Fieldset */
 .sidebar-right fieldset {
-  border: 2px solid #4CAF50; /* warna hijau edukasi */
+  border: 2px solid #4CAF50; 
   border-radius: 10px;
   padding: 15px;
   width: 100%;
@@ -236,9 +235,9 @@ nav ul li a:hover {
 
 .footer-content {
   display: flex;
-  justify-content: space-between; /* bikin rata kiri-tengah-kanan */
+  justify-content: space-between; 
   align-items: center;
-  flex-wrap: wrap; /* biar responsif kalau layar kecil */
+  flex-wrap: wrap; 
 }
 
 .footer p {
