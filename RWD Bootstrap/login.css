@@ -1,0 +1,127 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  background-size: 300% 300%;
+  animation: gradientMove 10s ease infinite;
+}
+
+/* Background gradient animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  animation: popUp 1s ease;
+}
+
+/* Animation muncul */
+@keyframes popUp {
+  0% { opacity: 0; transform: scale(0.7) translateY(30px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input field */
+.input-group {
+  position: relative;
+  margin: 25px 0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  color: #ddd;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+
+/* Efek input */
+.input-group input:focus,
+.input-group input:valid {
+  border-color: #f58529;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+  top: -5px;
+  font-size: 12px;
+  color: #f58529;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  background-size: 200% 200%;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-position: right center;
+  transform: scale(1.05);
+}
+
+/* Signup text */
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #ffd369;
+  text-decoration: none;
+}
