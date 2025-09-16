@@ -18,7 +18,7 @@ Repository ini berisi kumpulan tugas dan project selama mengikuti program **NF A
 ![Layout Project](Screenshot/Layout2.png)
 
 ### 5. Layout + CSS Eksternal
-![Layout Project](Screenshot/layout3.png)
+![Layout Project](Screenshot/Layout3.png)
 
 ### 6. RWD Bootstrap
 ![RWD Bootstrap](Screenshot/Bootstrap1.png)
