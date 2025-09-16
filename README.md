@@ -5,8 +5,8 @@ Repository ini berisi kumpulan tugas dan project selama mengikuti program **NF A
 ## 📸 Screenshot Project
 
 ### 1. CV Project
-![CV Project](Screenshot/CV1)
-![CV Project](Screenshot/CV2)
+![CV Project](Screenshot/CV1.png)
+![CV Project](Screenshot/CV2.png)
 
 ### 2. Tabel Project
 ![Table Project](Screenshot/Table.png)
