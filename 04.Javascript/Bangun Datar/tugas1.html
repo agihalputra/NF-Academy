@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Menghitung Bangun Datar</title>
+</head>
+<body>
+  <h2>Menghitung Keliling dan Luas Bangun Datar</h2>
+
+  <script>
+
+    // Persegi
+    let sisi = 6; // nilai sisi 
+    let kelilingPersegi = 4 * sisi; // rumus keliling
+    let luasPersegi = sisi * sisi; // rumus luas
+
+    document.write(
+      "<h3>Persegi</h3>" +
+      "Sisi: " + sisi + " cm" +
+      "<br>Keliling: " + kelilingPersegi + " cm" +
+      "<br>Luas: " + luasPersegi + " cm²"
+    );
+
+
+    // Persegi Panjang
+    let panjang = 12; // nilai panjang 
+    let lebar = 5;    // nilai lebar 
+    let kelilingPP = 2 * (panjang + lebar); // rumus keliling
+    let luasPP = panjang * lebar;           // rumus luas
+
+    document.write(
+      "<h3>Persegi Panjang</h3>" +
+      "Panjang: " + panjang + " cm, Lebar: " + lebar + " cm" +
+      "<br>Keliling: " + kelilingPP + " cm" +
+      "<br>Luas: " + luasPP + " cm²"
+    );
+
+    // Segitiga
+    let alas = 10;    // nilai alas 
+    let tinggi = 8;   // nilai tinggi 
+    let sisiA = 10;   // nilai sisi A 
+    let sisiB = 8;    // nilai sisi B 
+    let sisiC = 6;    // nilai sisi C 
+
+    let kelilingSegitiga = sisiA + sisiB + sisiC; // rumus keliling
+    let luasSegitiga = 0.5 * alas * tinggi;       // rumus luas
+
+    document.write(
+      "<h3>Segitiga</h3>" +
+      "Alas: " + alas + " cm, Tinggi: " + tinggi + " cm" +
+      "<br>Sisi-sisi: " + sisiA + ", " + sisiB + ", " + sisiC + " cm" +
+      "<br>Keliling: " + kelilingSegitiga + " cm" +
+      "<br>Luas: " + luasSegitiga + " cm²"
+    );
+
+  </script>
+</body>
+</html>
