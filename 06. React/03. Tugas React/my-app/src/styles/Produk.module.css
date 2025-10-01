@@ -1,0 +1,79 @@
+.produkContainer {
+  padding: 40px 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
+  width: 220px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 10px 0 6px;
+  color: #222;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin: 4px 0;
+  color: #666;
+}
+
+.addButton {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #4f8df9, #356ae6);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.addButton:hover {
+  background: linear-gradient(135deg, #356ae6, #254edb);
+  transform: scale(1.05);
+}
